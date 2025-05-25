@@ -5,13 +5,23 @@
     <loc>http://localhost:1313/posts/first-post/</loc>
     <lastmod>2025-05-25T17:53:12+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-05-25T17:53:12+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-05-25T17:53:12+08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/secoond-post-copy/</loc>
+    <lastmod>2025-05-25T17:53:12+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/secoond-post/</loc>
+    <lastmod>2025-05-25T17:53:12+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-05-25T17:53:12+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/archives/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>

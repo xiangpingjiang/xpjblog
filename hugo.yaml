@@ -1,4 +1,64 @@
 baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+languageCode: "zh-cn"
+title: 向平江的博客
 theme: ["PaperMod"]
+
+menu:
+  main:
+    # - identifier: categories
+    #   name: categories
+    #   url: /categories/
+    #   weight: 10
+    # - identifier: tags
+    #   name: tags
+    #   url: /tags/
+    #   weight: 20
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 30
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 40
+
+caches:
+  images:
+    dir: :cacheDir/images
+Params:
+  ShowReadingTime: true
+  homeInfoParams:
+    Title: Hi there wave
+    Content: Can be Info, links, about...
+
+  socialIcons: # optional
+    - name: "<platform>"
+      url: "<link>"
+    - name: "<platform 2>"
+      url: "<link2>"
+
+
+  # profileMode:
+  #   enabled: true
+  #   title: "<Title>" # optional default will be site title
+  #   subtitle: "This is subtitle"
+  #   imageUrl: "<image link>" # optional
+  #   imageTitle: "<title of image as alt>" # optional
+  #   imageWidth: 120 # custom size
+  #   imageHeight: 120 # custom size
+  #   buttons:
+  #     - name: Archive
+  #       url: "/archive"
+  #     - name: Github
+  #       url: "https://github.com/"
+
+  # socialIcons: # optional
+  #   - name: "<platform>"
+  #     url: "<link>"
+  #   - name: "<platform 2>"
+  #     url: "<link2>"
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
