@@ -1,0 +1,5 @@
+# Hugo 生成文件和缓存
+/public/
+/docs/
+/resources/_gen/
+.hugo_build.lock
