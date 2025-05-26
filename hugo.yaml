@@ -1,4 +1,4 @@
-baseURL: https://xiangpingjiang.github.io/xpjblog/
+baseURL: https://xpjblog.netlify.app/
 languageCode: "zh-cn"
 title: 向平江的博客
 theme: ["PaperMod"]
