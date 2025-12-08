@@ -32,10 +32,12 @@ Params:
     Content: Can be Info, links, about...
 
   socialIcons: # optional
-    - name: "<platform>"
-      url: "<link>"
-    - name: "<platform 2>"
-      url: "<link2>"
+    - name: "github"
+      url: "https://github.com/xiangpingjiang"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/pingjiangxiang/"
+    - name: "x"
+      url: "https://x.com/cola_XIANG"
 
 
   # profileMode:
@@ -51,12 +53,6 @@ Params:
   #       url: "/archive"
   #     - name: Github
   #       url: "https://github.com/"
-
-  # socialIcons: # optional
-  #   - name: "<platform>"
-  #     url: "<link>"
-  #   - name: "<platform 2>"
-  #     url: "<link2>"
 outputs:
   home:
     - HTML
