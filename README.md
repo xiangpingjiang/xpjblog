@@ -3,8 +3,9 @@
 
 ## How to run in local
 ### requeriment
-hugo 
+hugo   
 PaperMod theme
 
 ### command
-hugo server
+`hugo server -D"`  
+-D 显示草稿
