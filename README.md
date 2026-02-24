@@ -3,7 +3,7 @@
 
 ## How to run in local
 ### requeriment
-hugo
+hugo  
 PaperMod theme : git submodule update --init --recursive
 
 ### command
