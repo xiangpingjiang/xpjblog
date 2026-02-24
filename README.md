@@ -9,3 +9,7 @@ PaperMod theme : git submodule update --init --recursive
 ### command
 `hugo server -D`  
 -D 显示草稿
+
+
+### deployment
+https://www.netlify.com/(github to connect) and github action 
